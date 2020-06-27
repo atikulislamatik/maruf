@@ -1,7 +1,71 @@
 /* Max width 767px */
+@media (max-width: 767px) {
+  .navbar-area {
+    overflow: unset !important;
+  }
+  .profile {
+    height: 100%;
+  }
+  .content .main-content .home-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .content .main-content .home-area .home-content h1 {
+    font-size: 70px;
+    line-height: 1;
+  }
+  .content .main-content .about-area .about p {
+    font-size: 16px;
+  }
+  .content .main-content .about-area .about .about-list {
+    margin-top: 30px;
+  }
+  .content .main-content .about-area .review-area .single-slider {
+    max-width: 100%;
+    padding: 25px;
+  }
+  .content .main-content .about-area .review-area .single-slider .testimonial-item {
+    padding: 30px 20px 20px 20px;
+  }
+  .content .main-content .review-area {
+    padding-top: 0;
+  }
+  .content .main-content .portfolio-area {
+    padding-top: 0;
+  }
+  .content .main-content .portfolio-area .mix-btn {
+    margin-top: 20px;
+  }
+  .content .main-content .portfolio-area .mix-btn .text-center {
+    text-align: unset;
+  }
+  .content .main-content .portfolio-area .mix-btn .filter {
+    padding: 8px 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .content .main-content .blog-area .single-blog .blog-content {
+    padding: 20px;
+  }
+  .content .main-content .blog-area .single-blog .blog-content h3 {
+    font-size: 21px;
+  }
+  .content .main-content .blog-area .single-blog .blog-content .author {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content .main-content .blog-area .single-blog .blog-content .author li {
+    margin-right: 0;
+  }
+  .content .main-content .contact-area .form-control {
+    width: 100%;
+  }
+}
+
 /* Min width 576px to Max width 767px */
 /* Min width 768px to Max width 991px */
-/* Min width 992px to Max width 1200px */
 /* Max width 1800px */
 /* Max width 991px Only Mobile Devices */
 @media only screen and (max-width: 991px) {
@@ -11,7 +75,7 @@
   .mobile-nav .logo {
     text-decoration: none;
     position: absolute;
-    top: 6px;
+    top: 15px;
     z-index: 999;
     left: 15px;
     color: #fff;
@@ -20,16 +84,16 @@
     font-size: 20px;
   }
   .mean-container .mean-bar {
-    background-color: #fff;
+    background-color: #111;
     padding: 5px 0;
     -webkit-box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
-            box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 20px 20px 3px rgba(0, 0, 0, 0.05);
   }
   .mean-container a.meanmenu-reveal {
     padding: 15px 15px 0 0;
   }
   .mobile-nav nav .navbar-nav .nav-item a i {
-    display: none;
+    display: block;
   }
   .main-nav {
     display: none !important;
@@ -38,7 +102,7 @@
     margin-top: -5px;
   }
   .mobile-nav nav .navbar-nav {
-    height: auto;
+    height: 265;
     overflow-y: scroll;
   }
 }
